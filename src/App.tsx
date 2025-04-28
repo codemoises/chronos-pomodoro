@@ -1,29 +1,19 @@
+import Container from './components/Container';
+import Logo from './components/Logo';
+import Menu from './components/Menu';
+
 import './styles/global.css';
 import './styles/theme.css';
 
 export function App() {
   return (
     <>
-      <div className='container'>
-        <div className='content'>
-          <section>LOGO</section>
-        </div>
-      </div>
-      <div className='container'>
-        <div className='content'>
-          <section>MENU</section>
-        </div>
-      </div>
-      <div className='container'>
-        <div className='content'>
-          <section>FORM</section>
-        </div>
-      </div>
-      <div className='container'>
-        <div className='content'>
-          <section>FOOTER</section>
-        </div>
-      </div>
+      <Container>
+        <Logo />
+      </Container>
+      <Container>
+        <Menu />
+      </Container>
     </>
   );
 }
