@@ -26,6 +26,6 @@
   background: var(--primary);
 }
 
-.shortBreakTime {
+.longBreakTime {
   background: var(--info);
 }
