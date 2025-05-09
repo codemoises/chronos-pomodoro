@@ -1,4 +1,4 @@
-import { PlayCircleIcon } from 'lucide-react';
+import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
 import { Cycles } from '../Cycles';
 import DefaultButton from '../DefaultButton';
 import DefaultInput from '../DefaultInput';
@@ -110,7 +110,7 @@ export function MainForm() {
             title='Interromper tarefa atual'
             type='button'
             color='red'
-            icon={<PlayCircleIcon />}
+            icon={<StopCircleIcon />}
             onClick={handleInterruptTask}
             key={'botao_button'}
           />
